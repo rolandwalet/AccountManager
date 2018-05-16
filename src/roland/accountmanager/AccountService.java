@@ -2,8 +2,8 @@ package roland.accountmanager;
 
 import java.util.HashMap;
 
-public class Service {
-	private HashMap<Integer, Account> accounts = new HashMap<>();
+public class AccountService {
+	private HashMap<Integer, Account> accounts = new HashMap<Integer, Account>();
 	
 	public void addAccount(String firstName, String lastName, int accountNumber) {
 		Account account = new Account(firstName, lastName, accountNumber);

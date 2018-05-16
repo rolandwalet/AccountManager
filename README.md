@@ -1,2 +1,2 @@
 # AccountManager
-# Simple app with accounts stored to a hashmap
+Simple app with accounts stored to a hashmap

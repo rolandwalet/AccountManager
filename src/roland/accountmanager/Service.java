@@ -14,6 +14,10 @@ public class Service {
 		return accounts.get(key);
 	}
 	
+	public void removeAccount(int key) {
+		accounts.remove(key);
+	}
+	
 	public void setAccountFirstName(int key, String firstName) {
 		getAccount(key).setFirstName(firstName);
 	}

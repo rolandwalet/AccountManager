@@ -1,6 +1,5 @@
 package roland.accountmanager;
 
-import java.util.Iterator;
 import java.util.Map;
 
 public class FirstNameCounter {

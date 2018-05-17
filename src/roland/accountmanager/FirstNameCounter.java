@@ -11,8 +11,11 @@ public class FirstNameCounter {
 			if (entry.getValue().getFirstName().equals(firstName)) {
 				count ++;
 			}
+			
 		}
+		
 		return count;
+		
 	}
 
 }

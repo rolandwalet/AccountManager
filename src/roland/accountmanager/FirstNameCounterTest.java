@@ -13,6 +13,7 @@ public class FirstNameCounterTest {
 		assertEquals(0, testCounter.count("Roland"));
 		service.addAccount("Roland", "Walet", 1);
 		assertEquals(1, testCounter.count("Roland"));
+		assertEquals(0, testCounter.count("a"));
 	}
 
 }

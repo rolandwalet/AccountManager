@@ -3,7 +3,7 @@ package roland.accountmanager;
 import java.util.HashMap;
 
 public class AccountService {
-	private HashMap<Integer, Account> accounts = new HashMap<Integer, Account>();
+	private static HashMap<Integer, Account> accounts = new HashMap<Integer, Account>();
 	
 	public void addAccount(String firstName, String lastName, int accountNumber) {
 		Account account = new Account(firstName, lastName, accountNumber);
@@ -23,6 +23,10 @@ public class AccountService {
 	}
 	public void setAccountLastName(int key, String lastName) {
 		getAccount(key).setFirstName(lastName);
+	}
+
+	public static HashMap<Integer, Account> getAccounts() {
+		return accounts;
 	}
 	
 }
